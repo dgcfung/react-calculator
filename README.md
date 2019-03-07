@@ -1,3 +1,5 @@
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png)  WEB DEVELOPMENT IMMERSIVE
+
 # React Calculator 
 
 Tonight you will be building a calculator with React. At first your calculator will just add 2 numbers together when they are typed in. For the bonus, we might get more creative.
