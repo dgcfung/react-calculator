@@ -33,3 +33,9 @@ Today you will be building a calculator with React.
     - **thought**: how will you handle inputs that aren't numbers?
 5. Once the state of the `sum` has been set, React will re-render the whole component. Make sure you have a place in your JSX that displays the result!
 6. Make the calculator work with any of the 4 basic arithmetic operations (+, -, *, /). How will this change your state, and your JSX?
+7. Style using Flexbox or CSS Grid.
+
+### Bonus
+
+- Create a mobile version of this using media queries
+  - Use [touch events](https://reactjs.org/docs/events.html#touch-events)
