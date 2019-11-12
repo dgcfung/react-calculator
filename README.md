@@ -11,7 +11,7 @@ Today you will be building a calculator with React.
 
 ### Steps
 
-1. Start by creating a single component name it Calculator.js. Create your Calculator class and in your render function add the following:
+1. Start by creating a single component name it Calculator.jsx. Create your Calculator class and in your render function add the following:
   ```js
   <div className="container">
     <h1>Add with React!</h1>
