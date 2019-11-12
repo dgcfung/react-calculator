@@ -16,13 +16,13 @@ Today you will be building a calculator with React.
   <div className="container">
     <h1>Add with React!</h1>
 
-    <div className="add">
+    <form className="add">
       <input type="text" />
       <span>+</span>
       <input type="text" />
       <span>=</span>
       <h3>Addition results go here!</h3>
-    </div>
+    </form>
   </div>
   
   ```
