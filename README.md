@@ -17,9 +17,9 @@ Today you will be building a calculator with React.
     <h1>Add with React!</h1>
 
     <form className="add">
-      <input type="text" />
+      <input type="text" name="value1" />
       <span>+</span>
-      <input type="text" />
+      <input type="text" name="value2" />
       <span>=</span>
       <h3>Addition results go here!</h3>
     </form>
