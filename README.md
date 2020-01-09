@@ -34,7 +34,7 @@ Your client Sonor Cardgage has requested a calculator, built in React.
 
 9. Test your calculator. Do not progress to the next step until it successfully adds two numbers and renders the sum in `Output.jsx`.
 
-7. Make the calculator work with all of the basic 4 arithmetic operations (+, -, *, /). How will this change your state, and your JSX? Will you need to create additional methods or can you repurpose your existing method?
+7. Make the calculator work with all of the basic 4 arithmetic operations (+, -, *, /). What changes do you need to make to your JSX or state? Will you need to create additional methods or can you repurpose your existing method?
 
 ### Bonus
 What happens if the calculator recieves non-numerical inputs? Create some error handling that lets the user know if they have entered values that cannot be computed.
