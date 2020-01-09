@@ -5,7 +5,7 @@
 
 # Calculator App
 
-Your client Sonor Cardgage has requested a calculator, built in React.
+Your client Senor Cardgage has requested a calculator, built in React.
 
 ![](assets/no_probalo.png)
 
