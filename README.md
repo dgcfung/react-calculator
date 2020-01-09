@@ -11,7 +11,7 @@ Your client Sonor Cardgage has requested a calculator, built in React.
 
 ### Basic Logic
 
-1. Once you've cloned down the repo run `npm install` or `npm i` in the terminal to install react dependencies.
+1. Once you've cloned down the repo, run `npm install` or `npm i` in the terminal to install react dependencies.
 
 2. Take a look at the structure of the provided code so far. We have a parent `App.js` component that houses three child components: `Header.jsx`, `Calculator.jsx` and `Output.jsx`. Run `npm start` in the terminal to see this rendered in your browser.
   
@@ -28,9 +28,9 @@ Your client Sonor Cardgage has requested a calculator, built in React.
 ### Raising State
 
 7. The client has specifically requested that the calculator output be rendered in the `Output.jsx` component. It's really difficult to pass values directly between sibling components, so we must raise our state up to `App.js`.
-    - Decide how you want to create this new state. Will you convert `App.js` to a class component or do you want to use Hooks? What code needs to be moved from `Component.jsx` to `App.js` in order to to keep your 
+    - Decide how you want to create this new state. Will you convert `App.js` to a class component or do you want to use Hooks? What code needs to be moved from `Component.jsx` to `App.js` in order to to keep everything working smoothly?
 
-8. Pass the appropriate props from `App.js` down to the `Calculator.jsx` and `Output.jsx` components. Remember that methods can be passed as props as well as values.
+8. Pass the appropriate props from `App.js` down to `Calculator.jsx` and `Output.jsx`. Remember that methods can be passed as props, just like values.
 
 9. Test your calculator. Do not progress to the next step until it successfully adds two numbers and renders the sum in `Output.jsx`.
 
@@ -40,6 +40,6 @@ Your client Sonor Cardgage has requested a calculator, built in React.
 What happens if the calculator recieves non-numerical inputs? Create some error handling that lets the user know if they have entered values that cannot be computed.
 
 ### CSS Bonus
-Create a mobile version of this app using media queries
+Use media queries to design a responsive mobile version of this app
 - You cans use [touch events](https://reactjs.org/docs/events.html#touch-events) if you want!
 - [MDN Touch Events](https://developer.mozilla.org/en-US/docs/Web/API/Touch_events)
