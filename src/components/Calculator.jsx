@@ -2,19 +2,21 @@ import React from 'react';
 
 class Calculator extends React.Component {
   constructor(props) {
-    super(props) 
+    super(props)
     this.state = ({
-      
+
     })
-}
+  }
   render() {
     return (
-      <div className="container">
-        <form className="add">
-          <input type="text" placeholder="First Number..." name="value1" />
-          <input type="text" placeholder="Second Number..." name="value2" />
+      <div id="input-container">
+        <form>
           <div>
-            <button>Add</button>
+            <input className="input-fields" type="text" placeholder="#" name="value1" />
+            <input className="input-fields" type="text" placeholder="#" name="value2" />
+          </div>
+          <div>
+            <button>ADD</button>
           </div>
         </form>
       </div>
