@@ -2,6 +2,7 @@
 
 1. Fork
 1. Clone
+1. At least **5 commits**
 
 # Calculator App
 
