@@ -5,15 +5,25 @@ function Calculator (props) {
   
   const[num1, setNum1]= useState(0);
   const [num2, setNum2]= useState(0);
+  const[totalNum, setTotalNum]=useState(0);
 
-  function handleOnClick(event){
-    event.preventDefault();
+//   function handleOnClick(event){
+//     event.preventDefault();
 
     
-console.log(event)
-console.log()
+// console.log(event)
+// console.log()
+
+//   }
+
+  function addNumbers(event){
+    event.preventDefault()
+    const addedNum=(Number(num1)+Number(num2))
+    setTotalNum(addedNum)
+    console.log(addedNum)
 
   }
+
 
  
 
@@ -33,7 +43,7 @@ console.log()
 
           {/* inputs, track state */}
           <div>
-            <button >ADD</button>
+            <button onClick={addNumbers}>ADD</button>
           </div>
         </form>
       </div>
