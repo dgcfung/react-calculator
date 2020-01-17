@@ -41,13 +41,39 @@ function stateOf(e){
     console.log(addedNum)
 
   }
+  function subNumbers(event, string){
+    event.preventDefault()
+    const addedNum=(Number(num.value1)-Number(num.value2))
+  
+    setTotalNum(addedNum)
+    console.log(addedNum)
+
+  }
+
+  function multNumbers(event, string){
+    event.preventDefault()
+    const addedNum=(Number(num.value1)*Number(num.value2))
+  
+    setTotalNum(addedNum)
+    console.log(addedNum)
+
+  }
+  function divNumbers(event, string){
+    event.preventDefault()
+    const addedNum=(Number(num.value1)/Number(num.value2))
+  
+    setTotalNum(addedNum)
+    console.log(addedNum)
+
+  }
 
   return (
     <div className="App">
       {console.log(totalNum)}
       <Header />
       <div id="calculator-container">
-        <Calculator stateOf={stateOf} num={num} handleSubmit={addNumbers} />
+        <Calculator stateOf={stateOf} num={num} handleAdd={addNumbers} handleSubtract={subNumbers} handleMultiply={multNumbers} handleDivide={divNumbers}/>
+        
         <Output output= {totalNum} />
       </div>
     </div>

@@ -39,7 +39,10 @@ function Calculator (props) {
 
           {/* inputs, track state */}
           <div>
-            <button onClick={()=> props.handleSubmit('add')}>ADD</button>
+            <button onClick={props.handleAdd}>ADD</button>
+            <button onClick={props.handleSubtract}>SUBTRACT</button>
+            <button onClick={props.handleMultiply}>MULTIPLY</button>
+            <button onClick={props.handleDivide}>DIVIDE</button>
           </div>
         </form>
       </div>
