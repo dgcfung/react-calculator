@@ -1,9 +1,9 @@
 import React from 'react';
 
 
-function Output() {
+function Output(props) {
   return (
-    <h3>OUTPUT HERE</h3>
+    <h3>{props.output}</h3>
   );
 }
 
